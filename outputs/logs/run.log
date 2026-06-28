@@ -1,0 +1,169 @@
+2026-06-28 22:46:12 | FedSim | INFO | Dataset shape: (1025, 14)
+2026-06-28 22:46:12 | FedSim | INFO | Target distribution:
+target
+1    526
+0    499
+2026-06-28 22:46:12 | FedSim | INFO | Missing values: 0
+2026-06-28 22:46:12 | FedSim | INFO | Train: 717, Val: 154, Test: 154
+2026-06-28 22:46:12 | FedSim | DEBUG | Client 0: 33 samples
+2026-06-28 22:46:12 | FedSim | DEBUG | Client 1: 428 samples
+2026-06-28 22:46:12 | FedSim | DEBUG | Client 2: 38 samples
+2026-06-28 22:46:12 | FedSim | DEBUG | Client 3: 185 samples
+2026-06-28 22:46:12 | FedSim | DEBUG | Client 4: 33 samples
+2026-06-28 22:46:12 | FedSim | INFO | Initialized 5 clients on cpu
+2026-06-28 22:46:50 | FedSim | INFO | Dataset shape: (1025, 14)
+2026-06-28 22:46:50 | FedSim | INFO | Target distribution:
+target
+1    526
+0    499
+2026-06-28 22:46:50 | FedSim | INFO | Missing values: 0
+2026-06-28 22:46:50 | FedSim | INFO | Train: 717, Val: 154, Test: 154
+2026-06-28 22:46:50 | FedSim | DEBUG | Client 0: 33 samples
+2026-06-28 22:46:50 | FedSim | DEBUG | Client 1: 428 samples
+2026-06-28 22:46:50 | FedSim | DEBUG | Client 2: 38 samples
+2026-06-28 22:46:50 | FedSim | DEBUG | Client 3: 185 samples
+2026-06-28 22:46:50 | FedSim | DEBUG | Client 4: 33 samples
+2026-06-28 22:46:50 | FedSim | INFO | Initialized 5 clients on cpu
+2026-06-28 22:46:54 | FedSim | INFO | Round   1 | Val Acc: 0.8571 | Val F1: 0.8659 | Val AUC: 0.9409
+2026-06-28 22:46:55 | FedSim | INFO | Round   5 | Val Acc: 0.9091 | Val F1: 0.9125 | Val AUC: 0.9602
+2026-06-28 22:46:57 | FedSim | INFO | Round  10 | Val Acc: 0.9221 | Val F1: 0.9231 | Val AUC: 0.9772
+2026-06-28 22:46:59 | FedSim | INFO | Round  15 | Val Acc: 0.9545 | Val F1: 0.9548 | Val AUC: 0.9838
+2026-06-28 22:47:00 | FedSim | INFO | Round  20 | Val Acc: 0.9675 | Val F1: 0.9682 | Val AUC: 0.9895
+2026-06-28 22:47:02 | FedSim | INFO | Round  25 | Val Acc: 0.9675 | Val F1: 0.9682 | Val AUC: 0.9897
+2026-06-28 22:47:03 | FedSim | INFO | Round  30 | Val Acc: 0.9675 | Val F1: 0.9686 | Val AUC: 0.9921
+2026-06-28 22:47:03 | FedSim | INFO | Training complete.
+2026-06-28 22:47:03 | FedSim | INFO | History saved to outputs/logs\history.json
+2026-06-28 22:47:03 | FedSim | INFO | Running test evaluation...
+2026-06-28 22:47:03 | FedSim | INFO | Test Accuracy:  0.9026
+2026-06-28 22:47:03 | FedSim | INFO | Test Precision: 0.8810
+2026-06-28 22:47:03 | FedSim | INFO | Test Recall:    0.9367
+2026-06-28 22:47:03 | FedSim | INFO | Test F1:        0.9080
+2026-06-28 22:47:03 | FedSim | INFO | Test AUC:       0.9641
+2026-06-28 22:47:04 | FedSim | INFO | Saved confusion matrix to outputs/figures\confusion_matrix.png
+2026-06-28 22:47:04 | FedSim | INFO | Saved ROC curve to outputs/figures\roc_curve.png
+2026-06-28 22:47:04 | FedSim | INFO | Saved training curves to outputs/figures\training_curves.png
+2026-06-28 22:47:05 | FedSim | INFO | Saved client losses to outputs/figures\client_losses.png
+2026-06-28 22:52:50 | FedSim | INFO | Dataset shape: (1025, 14)
+2026-06-28 22:52:50 | FedSim | INFO | Target distribution:
+target
+1    526
+0    499
+2026-06-28 22:52:50 | FedSim | INFO | Missing values: 0
+2026-06-28 22:52:50 | FedSim | INFO | Train: 717, Val: 154, Test: 154
+2026-06-28 22:52:50 | FedSim | DEBUG | Client 0: 33 samples
+2026-06-28 22:52:50 | FedSim | DEBUG | Client 1: 428 samples
+2026-06-28 22:52:50 | FedSim | DEBUG | Client 2: 38 samples
+2026-06-28 22:52:50 | FedSim | DEBUG | Client 3: 185 samples
+2026-06-28 22:52:50 | FedSim | DEBUG | Client 4: 33 samples
+2026-06-28 22:52:50 | FedSim | INFO | Initialized 5 clients on cpu
+2026-06-28 22:52:52 | FedSim | INFO | Round   1 | Val Acc: 0.8571 | Val F1: 0.8659 | Val AUC: 0.9409
+2026-06-28 22:52:54 | FedSim | INFO | Round   5 | Val Acc: 0.9091 | Val F1: 0.9125 | Val AUC: 0.9602
+2026-06-28 22:52:55 | FedSim | INFO | Round  10 | Val Acc: 0.9221 | Val F1: 0.9231 | Val AUC: 0.9772
+2026-06-28 22:52:57 | FedSim | INFO | Round  15 | Val Acc: 0.9545 | Val F1: 0.9548 | Val AUC: 0.9838
+2026-06-28 22:52:58 | FedSim | INFO | Round  20 | Val Acc: 0.9675 | Val F1: 0.9682 | Val AUC: 0.9895
+2026-06-28 22:53:00 | FedSim | INFO | Round  25 | Val Acc: 0.9675 | Val F1: 0.9682 | Val AUC: 0.9897
+2026-06-28 22:53:01 | FedSim | INFO | Round  30 | Val Acc: 0.9675 | Val F1: 0.9686 | Val AUC: 0.9921
+2026-06-28 22:53:01 | FedSim | INFO | Training complete.
+2026-06-28 22:53:01 | FedSim | INFO | History saved to outputs/logs\history.json
+2026-06-28 22:53:01 | FedSim | INFO | Running test evaluation...
+2026-06-28 22:53:01 | FedSim | INFO | Test Accuracy:  0.9026
+2026-06-28 22:53:01 | FedSim | INFO | Test Precision: 0.8810
+2026-06-28 22:53:01 | FedSim | INFO | Test Recall:    0.9367
+2026-06-28 22:53:01 | FedSim | INFO | Test F1:        0.9080
+2026-06-28 22:53:01 | FedSim | INFO | Test AUC:       0.9641
+2026-06-28 22:53:58 | FedSim | INFO | Dataset shape: (1025, 14)
+2026-06-28 22:53:58 | FedSim | INFO | Target distribution:
+target
+1    526
+0    499
+2026-06-28 22:53:58 | FedSim | INFO | Missing values: 0
+2026-06-28 22:53:58 | FedSim | INFO | Train: 717, Val: 154, Test: 154
+2026-06-28 22:53:58 | FedSim | DEBUG | Client 0: 33 samples
+2026-06-28 22:53:58 | FedSim | DEBUG | Client 1: 428 samples
+2026-06-28 22:53:58 | FedSim | DEBUG | Client 2: 38 samples
+2026-06-28 22:53:58 | FedSim | DEBUG | Client 3: 185 samples
+2026-06-28 22:53:58 | FedSim | DEBUG | Client 4: 33 samples
+2026-06-28 22:53:58 | FedSim | INFO | Initialized 5 clients on cpu
+2026-06-28 22:54:01 | FedSim | INFO | Round   1 | Val Acc: 0.8571 | Val F1: 0.8659 | Val AUC: 0.9409
+2026-06-28 22:54:02 | FedSim | INFO | Round   5 | Val Acc: 0.9091 | Val F1: 0.9125 | Val AUC: 0.9602
+2026-06-28 22:54:03 | FedSim | INFO | Round  10 | Val Acc: 0.9221 | Val F1: 0.9231 | Val AUC: 0.9772
+2026-06-28 22:54:05 | FedSim | INFO | Round  15 | Val Acc: 0.9545 | Val F1: 0.9548 | Val AUC: 0.9838
+2026-06-28 22:54:07 | FedSim | INFO | Round  20 | Val Acc: 0.9675 | Val F1: 0.9682 | Val AUC: 0.9895
+2026-06-28 22:54:09 | FedSim | INFO | Round  25 | Val Acc: 0.9675 | Val F1: 0.9682 | Val AUC: 0.9897
+2026-06-28 22:54:11 | FedSim | INFO | Round  30 | Val Acc: 0.9675 | Val F1: 0.9686 | Val AUC: 0.9921
+2026-06-28 22:54:11 | FedSim | INFO | Training complete.
+2026-06-28 22:54:11 | FedSim | INFO | History saved to outputs/logs\history.json
+2026-06-28 22:54:11 | FedSim | INFO | Running test evaluation...
+2026-06-28 22:54:11 | FedSim | INFO | Test Accuracy:  0.9026
+2026-06-28 22:54:11 | FedSim | INFO | Test Precision: 0.8810
+2026-06-28 22:54:11 | FedSim | INFO | Test Recall:    0.9367
+2026-06-28 22:54:11 | FedSim | INFO | Test F1:        0.9080
+2026-06-28 22:54:11 | FedSim | INFO | Test AUC:       0.9641
+2026-06-28 22:54:11 | FedSim | INFO | Saved confusion matrix -> outputs/figures\confusion_matrix.png
+2026-06-28 22:54:11 | FedSim | INFO | Saved ROC curve -> outputs/figures\roc_curve.png
+2026-06-28 22:54:11 | FedSim | INFO | Saved training curves -> outputs/figures\training_curves.png
+2026-06-28 22:54:12 | FedSim | INFO | Saved client losses -> outputs/figures\client_losses.png
+2026-06-28 22:55:34 | FedSim | INFO | Dataset shape: (1025, 14)
+2026-06-28 22:55:34 | FedSim | INFO | Target distribution:
+target
+1    526
+0    499
+2026-06-28 22:55:34 | FedSim | INFO | Missing values: 0
+2026-06-28 22:55:34 | FedSim | INFO | Train: 717, Val: 154, Test: 154
+2026-06-28 22:55:34 | FedSim | DEBUG | Client 0: 33 samples
+2026-06-28 22:55:34 | FedSim | DEBUG | Client 1: 428 samples
+2026-06-28 22:55:34 | FedSim | DEBUG | Client 2: 38 samples
+2026-06-28 22:55:34 | FedSim | DEBUG | Client 3: 185 samples
+2026-06-28 22:55:34 | FedSim | DEBUG | Client 4: 33 samples
+2026-06-28 22:55:34 | FedSim | INFO | Initialized 5 clients on cpu
+2026-06-28 22:55:37 | FedSim | INFO | Round   1 | Val Acc: 0.8571 | Val F1: 0.8659 | Val AUC: 0.9409
+2026-06-28 22:55:39 | FedSim | INFO | Round   5 | Val Acc: 0.9091 | Val F1: 0.9125 | Val AUC: 0.9602
+2026-06-28 22:55:42 | FedSim | INFO | Round  10 | Val Acc: 0.9221 | Val F1: 0.9231 | Val AUC: 0.9772
+2026-06-28 22:55:45 | FedSim | INFO | Round  15 | Val Acc: 0.9545 | Val F1: 0.9548 | Val AUC: 0.9838
+2026-06-28 22:55:47 | FedSim | INFO | Round  20 | Val Acc: 0.9675 | Val F1: 0.9682 | Val AUC: 0.9895
+2026-06-28 22:55:48 | FedSim | INFO | Round  25 | Val Acc: 0.9675 | Val F1: 0.9682 | Val AUC: 0.9897
+2026-06-28 22:55:50 | FedSim | INFO | Round  30 | Val Acc: 0.9675 | Val F1: 0.9686 | Val AUC: 0.9921
+2026-06-28 22:55:50 | FedSim | INFO | Training complete.
+2026-06-28 22:55:50 | FedSim | INFO | History saved to outputs/logs\history.json
+2026-06-28 22:55:50 | FedSim | INFO | Running test evaluation...
+2026-06-28 22:55:50 | FedSim | INFO | Test Accuracy:  0.9026
+2026-06-28 22:55:50 | FedSim | INFO | Test Precision: 0.8810
+2026-06-28 22:55:50 | FedSim | INFO | Test Recall:    0.9367
+2026-06-28 22:55:50 | FedSim | INFO | Test F1:        0.9080
+2026-06-28 22:55:50 | FedSim | INFO | Test AUC:       0.9641
+2026-06-28 22:55:50 | FedSim | INFO | Saved confusion matrix -> outputs/figures\confusion_matrix.png
+2026-06-28 22:55:50 | FedSim | INFO | Saved ROC curve -> outputs/figures\roc_curve.png
+2026-06-28 22:55:51 | FedSim | INFO | Saved training curves -> outputs/figures\training_curves.png
+2026-06-28 22:55:51 | FedSim | INFO | Saved client losses -> outputs/figures\client_losses.png
+2026-06-28 22:56:11 | FedSim | INFO | Dataset shape: (1025, 14)
+2026-06-28 22:56:11 | FedSim | INFO | Target distribution:
+target
+1    526
+0    499
+2026-06-28 22:56:11 | FedSim | INFO | Missing values: 0
+2026-06-28 22:56:11 | FedSim | INFO | Train: 717, Val: 154, Test: 154
+2026-06-28 22:56:11 | FedSim | DEBUG | Client 0: 33 samples
+2026-06-28 22:56:11 | FedSim | DEBUG | Client 1: 428 samples
+2026-06-28 22:56:11 | FedSim | DEBUG | Client 2: 38 samples
+2026-06-28 22:56:11 | FedSim | DEBUG | Client 3: 185 samples
+2026-06-28 22:56:11 | FedSim | DEBUG | Client 4: 33 samples
+2026-06-28 22:56:11 | FedSim | INFO | Initialized 5 clients on cpu
+2026-06-28 22:56:14 | FedSim | INFO | Round   1 | Val Acc: 0.8571 | Val F1: 0.8659 | Val AUC: 0.9409
+2026-06-28 22:56:16 | FedSim | INFO | Round   5 | Val Acc: 0.9091 | Val F1: 0.9125 | Val AUC: 0.9602
+2026-06-28 22:56:18 | FedSim | INFO | Round  10 | Val Acc: 0.9221 | Val F1: 0.9231 | Val AUC: 0.9772
+2026-06-28 22:56:20 | FedSim | INFO | Round  15 | Val Acc: 0.9545 | Val F1: 0.9548 | Val AUC: 0.9838
+2026-06-28 22:56:23 | FedSim | INFO | Round  20 | Val Acc: 0.9675 | Val F1: 0.9682 | Val AUC: 0.9895
+2026-06-28 22:56:25 | FedSim | INFO | Round  25 | Val Acc: 0.9675 | Val F1: 0.9682 | Val AUC: 0.9897
+2026-06-28 22:56:27 | FedSim | INFO | Round  30 | Val Acc: 0.9675 | Val F1: 0.9686 | Val AUC: 0.9921
+2026-06-28 22:56:27 | FedSim | INFO | Training complete.
+2026-06-28 22:56:27 | FedSim | INFO | History saved to outputs/logs\history.json
+2026-06-28 22:56:27 | FedSim | INFO | Running test evaluation...
+2026-06-28 22:56:27 | FedSim | INFO | Test Accuracy:  0.9026
+2026-06-28 22:56:27 | FedSim | INFO | Test Precision: 0.8810
+2026-06-28 22:56:27 | FedSim | INFO | Test Recall:    0.9367
+2026-06-28 22:56:27 | FedSim | INFO | Test F1:        0.9080
+2026-06-28 22:56:27 | FedSim | INFO | Test AUC:       0.9641
+2026-06-28 22:56:28 | FedSim | INFO | Saved confusion matrix -> outputs/figures\confusion_matrix.png
+2026-06-28 22:56:28 | FedSim | INFO | Saved ROC curve -> outputs/figures\roc_curve.png
+2026-06-28 22:56:29 | FedSim | INFO | Saved training curves -> outputs/figures\training_curves.png
+2026-06-28 22:56:29 | FedSim | INFO | Saved client losses -> outputs/figures\client_losses.png
